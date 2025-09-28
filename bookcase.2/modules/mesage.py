@@ -1,0 +1,10 @@
+def menu():
+    print("                🔱===== MENU =====🔱                   ")
+    print("✨--- Sistema de Gestión de Biblioteca Persona ---✨")
+    print("1.Agregar Libro")
+    print("2.Ver Biblioteca")
+    print("3.Buscador de Libros")
+    print("4.Cambiar estado de Libros")
+    print("5.Estadisticas")
+    print("6.Eliminar libro")
+    print("7.Salir")
