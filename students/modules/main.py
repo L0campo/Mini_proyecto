@@ -12,40 +12,44 @@ while isActive:
         match opcion:
 
             case 1:
-                c.registrar_estudiante()
+                
+                print("registro de estudiantes".center(50))
+                c.registrar_estudiante (  )
                 u.pasuar()
                 u.clear_screen()
 
             case 2:
-                
-                c.agregar_materia()
+                print("Agregar materias disponibles".center(50))
+                c.agregar_materias()
                 u.pasuar()
                 u.clear_screen()
 
             case 3:
-                
-                c
+                print("Inscribir estudiante a materia".center(50))
+                c.inscribir_estudiante()
                 u.pasuar()
                 u.clear_screen()
 
             case 4:
-                
-                c
+                print("Registrar calificación".center(50))
+                c.registrar_calificacion()
                 u.pasuar()
                 u.clear_screen()
 
             case 5:
-                
-                c
+                print("ver materias comunes".center(50))
+                c.ver_materias_comunes()
                 u.pasuar()
                 u.clear_screen()
 
             case 6:
-                c
+                print("Generar reporte".center(50))
+                c.generar_reporte()
                 u.pasuar()
                 u.clear_screen()
 
             case 7:
+                
                 print("Gracias por usar nuestro sistema")
                 u.pasuar()
                 isActive=False

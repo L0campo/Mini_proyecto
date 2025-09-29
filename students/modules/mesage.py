@@ -1,10 +1,10 @@
 def menu():
     print("======= 📖 MENU 📖 ======".center (50))
     print("-"*60)
-    print("1. Registrar estudiante")
-    print("2. Agregar materias disponibles:")
+    print("1. Registrar estudiante 👨‍🎓")
+    print("2. Agregar materias disponibles📒 :")
     print("3. Inscribir estudiante a materia:")
     print("4. Registrar calificación:")
     print("5. Ver materias comunes:")
     print("6. Generar reporte")
-    print("7. salida 🏃‍♂️‍➡️ ")
+    print("7. salida 🏃 ")
